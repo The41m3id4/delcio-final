@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration:none;
+    font-family: sans-serif;
+}
+:root{
+    --primary-color-branco:#fafafa;
+    --vermelho:#FB3B00;
+    --over-blak:#191F2D;
+    --orange:#FB3B00;
+}
+body {
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*Botão video*/
+#close{
+    color: #fafafa;
+    background-color: #616161;
+    border-radius: 50px;
+    padding: 15px 21px;
+    cursor: pointer;
+    border: none;
+    
+}
+/*Cabeçalho*/
+.row{
+    padding-left: 45px;
+}
+.top-address span,i,a{
+    font-size: 13px;
+    color:#697493;
+}
+.social-icons{
+    color:#616161;
+    font:16px "Nunito Sans',sans-serif";
+    padding: 0 15px;
+}
+.header-top{
+    border-bottom: 1px solid #ddd;
+}
+.container{
+    margin: 15px 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Nav itens*/
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font:16px "Nunito Sans',sans-serif";
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    padding: 0 15px;
+    font: 25px "Nunito Sans',sans-serif";    
+}
+.logo site{
+    font: 15px "Nunito Sans',sans-serif"; 
+}
+.nav__itens{
+    display: flex;
+    align-items: center;
+}
+.nav_itens ul{
+    display: flex;
+}
+.nav_itens a{
+    font:20px "Nunito Sans',sans-serif";
+    color: #3B3127;
+    font-weight: 500;
+    padding: 0 10px;
+    transition: 0.50s;
+}
+.nav_itens a:hover{
+    color: #f38c27;
+}
+/*botão suporte*/
+.botton_suporte button{
+    padding: 20px 45px;
+    border-radius: 25px;
+    border: none;
+    color: #fafafa;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ffcb00, #febb0b, #fcab16, #f89b1f, #f38c27, #ed812a, #e6772d, #de6d30, #d66431, #cd5c31, #c45431, #bb4c31);
+}
+/*Area do video*/
+.background{
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_area{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_video_container{
+    
+    height: 600px;
+    
+}
+.overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0,0 , 0,.8);
+}
+.overlay div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem auto;
+    
+}
+.overlay button{
+    margin: 10px;
+    float: right;
+}
+/*Card and tendencias*/
+.card_container{
+
+    background-image: url("../img/tab-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card_container_itens{
+    padding: 130px 0;
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.card_description_1{
+    width: 550px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+/*Cards*/
+.cards{
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.card{
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 8%);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 320px;
+    width: 270px;
+    margin-top: -100px;
+   
+}
+.card h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+}
+/*Noticias*/
+.noticias{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 130px;
+}
+.noticias_imagem{
+    height: 592px;
+    width: 490px;
+    background-image: url("../img/about-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.noticias_description{
+    background-color: #bb4c31;
+    width: 750px;
+    margin: 20px;
+}
+/*Cards serviços*/
+.servs{
+width: 100%;
+margin-top: 45px;
+}
+.servs_area_1, .servs_area_2{
+    color: #fafafa;
+}
+.servs-background{
+    height: 750px;
+    padding: 0px 100px;
+    background-image: url(../img/service-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servs_area_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+}
+.serv_description{
+    width: 290px;
+}
+.servs_area_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+}
+.card_1{
+    border-top: 3px solid rgb(242, 105, 7);
+    background-color: #ddd;
+    height: 320px;
+    width: 345px;
+    cursor: pointer;
+}
+#btn_1{
+   margin-left: 60px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border:3px solid #fafaff;
+}
+.card_1 h1{
+    padding-bottom: 50px;
+    
+}
+.card_1 p{
+  
+    padding-bottom: 40px;
+}
+/*Especialistas*/
+.esp_card{
+    margin-right: 30px;
+}
+.esp_card span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ed812a;
+} 
+.esp_card h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.esp__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.especialistas{
+    margin-top: 90px;
+    width: 100%;
+    height: 450px;
+}
+.esp-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    background-image: url(../img/consultoria-de-marketing-estrategico-para-advogados.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 310px;
+    border-radius: 5px;
+   
+}
+/*Estatisticas*/
+.esta_row{
+ margin-top: 90px;
+ margin-bottom: 90px;
+ }
+.esta_color_back{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color:#F8FAFC;
+    height: 590px;
+    width: 100%;
+}
+.esta_esta{
+    margin: 0px 110px;
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+
+}
+.esta_img{
+    height: 450px;
+    width: 800px;
+    background-image: url(../img/20210224_Grafico01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Quem somos */
+.item_0 {
+    margin: 40px;
+  }
+  
+  .item_0_description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    
+  }
+  
+  .item_0_description aside h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .item_0_description aside p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 120px;
+    padding: 25px;
+    margin: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+.main_itens_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quem_somos_btn, button{
+    background-color: #FB3B00;
+    padding: 25px 60px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+/*Nossos serviços*/
+.nossos_servicos_cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+.n_s_card_1{
+    padding: 0px 20px;
+}
+.nossos_servicos_row{
+    width: 100%;
+    margin-top: 10rem;
+    height: 800px;
+}
+.n_s_img{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    border-radius: 5px;
+    background-image: url(../img/jadson.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nossos_servicos_img{
+    height: 550px;
+    background-image: url(../img/choose-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.n_s_description{
+    position: absolute;
+    height: 120px;
+    width: 190px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin:-70px 31px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.n_s_description{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
